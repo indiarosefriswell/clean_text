@@ -59,3 +59,4 @@ if __name__ == "__main__":
 
     text_normalizer = TextNormalizer(text=args.text)
     text_normalizer.clean_text()
+    print(f"\nUpdated text:\n--> {text_normalizer.text}")
